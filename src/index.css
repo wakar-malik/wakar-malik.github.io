@@ -49,10 +49,14 @@ html {
 
 body {
   font-family: var(--fontRegular);
-  background-color: var(--bgColor);
 }
 
 #root {
   color: var(--textColor);
   overflow: hidden;
+}
+
+*::selection {
+  background-color: var(--bgGreen);
+  color: var(--black);
 }

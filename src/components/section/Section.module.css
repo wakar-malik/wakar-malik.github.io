@@ -1,6 +1,7 @@
 .section,
 .homeSection {
   padding: 8rem 2rem 0;
+  background-color: var(--bgColor);
 }
 
 .homeSection {

@@ -1,8 +1,6 @@
 .footerSection {
   padding: 2rem;
-  background-color: #0f172a;
   border-top: 1px solid var(--borderColor);
-  margin-top: 4rem;
 }
 
 .footerMain {
