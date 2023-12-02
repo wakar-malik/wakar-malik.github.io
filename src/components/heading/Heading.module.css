@@ -1,0 +1,9 @@
+.heading {
+  font-family: var(--fontBold);
+  color: var(--white);
+  white-space: nowrap;
+}
+
+.span span {
+  color: var(--bgGreen);
+}

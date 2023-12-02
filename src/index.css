@@ -1,13 +1,57 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: radioBold;
+  src: url("../src/assets/font/Radio_Canada/static/RadioCanada-Regular.ttf");
+}
+
+@font-face {
+  font-family: radioRegular;
+  src: url("../src/assets/font/Radio_Canada/static/RadioCanada-Regular.ttf");
+}
+
+@font-face {
+  font-family: radioSemBold;
+  src: url("../src/assets/font/Radio_Canada/static/RadioCanada-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: arizona;
+  src: url("../src/assets/font/Arizonia/Arizonia-Regular.ttf");
+}
+
+:root {
+  --bgColor: #0f172a;
+  --bgGreen: #72e2ae;
+  --cardBg: #1c2335;
+  --borderColor: #343b4b;
+  --white: #fff;
+  --black: #000;
+  --tabBg: #23333c;
+  --textColor: #bebdca;
+  --progressBg: #264549;
+  --inputBg: #1c2235;
+  --socialBg: #0f172a;
+  --opacity: 0.1;
+  --fontRegular: radioRegular;
+  --fontBold: radioBold;
+  --fontSemBold: radioSemBold;
+  --fontArizona: arizona;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fontRegular);
+}
+
+#root {
+  color: var(--textColor);
+  overflow: hidden;
 }

@@ -1,0 +1,83 @@
+.contactSection {
+  position: relative;
+}
+
+.contactHeading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1rem;
+  z-index: 2;
+}
+
+.contactSection::after {
+  content: "CONTACT";
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 7rem;
+  line-height: 1;
+  z-index: 0;
+  font-weight: 900;
+  opacity: var(--opacity);
+  white-space: nowrap;
+}
+
+.contactMain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.contactRight {
+  padding: 2rem;
+}
+
+.contactRight,
+.emailCard {
+  border-radius: 0.4rem;
+}
+
+.emailCard {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.email h1 {
+  margin-bottom: 0.4rem;
+}
+
+.textarea {
+  width: 100%;
+  background-color: var(--cardBg);
+  border: 1px solid var(--borderColor);
+  border-radius: 0.2rem;
+  margin: 0.4rem 0 0;
+}
+
+.textarea:focus {
+  border-color: var(--bgGreen);
+  outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .contactMain {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactSection::after {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contactSection::after {
+    font-size: 4rem;
+    /* display: none; */
+  }
+}

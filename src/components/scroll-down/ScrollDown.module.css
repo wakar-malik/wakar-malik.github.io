@@ -1,0 +1,32 @@
+.scrollDown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--bgGreen);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.scrollIcon {
+  font-size: 1.7rem;
+  transform: translateY(2px);
+  color: var(--bgGreen);
+  animation-name: scroll;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-4px);
+  }
+}

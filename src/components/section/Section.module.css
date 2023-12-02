@@ -1,0 +1,47 @@
+.section,
+.homeSection {
+  padding: 8rem 2rem 0;
+  background-color: var(--bgColor);
+}
+
+.homeSection {
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.homeSection .span {
+  position: absolute;
+  border-right: 1px solid var(--textColor);
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: var(--opacity);
+}
+
+.homeSection .span:nth-of-type(1) {
+  left: 10%;
+}
+
+.homeSection .span:nth-of-type(2) {
+  left: 30%;
+}
+
+.homeSection .span:nth-of-type(3) {
+  left: 50%;
+}
+
+.homeSection .span:nth-of-type(4) {
+  right: 30%;
+}
+
+.homeSection .span:nth-of-type(5) {
+  right: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+  .section,
+  .homeSection {
+    padding: 8rem 1.5rem 0;
+  }
+}

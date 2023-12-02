@@ -1,0 +1,90 @@
+.drawerPanel {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 40%;
+  border-left: 2px solid var(--borderColor);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: -50px -50px;
+  background-color: #fff;
+  transition: right 0.3s;
+  background-color: var(--bgColor);
+  z-index: 10;
+}
+
+.drawerActive {
+  right: 0;
+}
+
+.drawerNotActive {
+  right: -40%;
+}
+
+.drawerItemsList {
+  list-style: none;
+}
+
+.drawerItemsList .drawerItem {
+  font-size: 2.3rem;
+  font-family: var(--fontBold);
+  width: fit-content;
+  position: relative;
+  padding: 0.3rem 1rem;
+}
+
+.drawerItemsList .drawerItem a {
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+.drawerItemsList .drawerItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.drawerItemsList .drawerItem::after {
+  content: "";
+  background-color: var(--bgGreen);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  transition: width 0.2s;
+}
+
+.drawerItem:hover::after {
+  width: 100%;
+}
+
+.drawerShadow {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(1px);
+  z-index: 8;
+}
+
+.closeIconContainer {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .drawerPanel {
+    width: 60%;
+  }
+
+  .drawerNotActive {
+    right: -60%;
+  }
+}

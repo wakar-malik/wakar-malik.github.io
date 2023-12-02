@@ -1,0 +1,32 @@
+.skillBarContainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.skillBarContainer:hover .barIcon > svg {
+  fill: var(--bgGreen);
+  box-shadow: 0 0 30px 2px var(--cardBg);
+}
+
+.barSection {
+  flex-grow: 1;
+}
+
+.barContainer {
+  height: 10px;
+  width: 100%;
+  background-color: var(--cardBg);
+  margin-top: 1.3rem;
+}
+
+.barContainer,
+.bar {
+  border-radius: 2rem;
+}
+
+.bar {
+  display: block;
+  height: 100%;
+  background-color: var(--bgGreen);
+}

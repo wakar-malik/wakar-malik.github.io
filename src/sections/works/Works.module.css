@@ -1,0 +1,64 @@
+.worksSection {
+  position: relative;
+}
+
+.worksHeading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1rem;
+  z-index: 2;
+}
+
+.worksSection::after {
+  content: "WORKS";
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 7rem;
+  line-height: 1;
+  z-index: 0;
+  font-weight: 900;
+  opacity: var(--opacity);
+  white-space: nowrap;
+}
+
+.tabContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tabCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.tabContentContainer {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .tabCardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .worksSection::after {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tabCardsContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .worksSection::after {
+    font-size: 4rem;
+    /* display: none; */
+  }
+}

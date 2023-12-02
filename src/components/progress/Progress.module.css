@@ -1,0 +1,33 @@
+.progress {
+  width: 150px;
+  height: 7px;
+  border-radius: 2rem;
+  background-color: var(--progressBg);
+  margin: auto;
+  margin-bottom: 4rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.progress::after {
+  content: "";
+  width: 6px;
+  height: 7px;
+  border-radius: 2rem;
+  background-color: var(--bgGreen);
+  position: absolute;
+  animation-name: progress;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes progress {
+  from {
+    transform: translateX(-6px);
+  }
+  to {
+    transform: translateX(150px);
+  }
+}

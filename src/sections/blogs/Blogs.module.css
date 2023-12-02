@@ -1,0 +1,37 @@
+.blogsSection {
+  position: relative;
+}
+
+.blogsHeading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1rem;
+  z-index: 2;
+}
+
+.blogsSection::after {
+  content: "BLOGS";
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 7rem;
+  line-height: 1;
+  z-index: 1;
+  font-weight: 900;
+  opacity: var(--opacity);
+  white-space: nowrap;
+}
+
+.sliderContainer {
+  display: flex;
+  gap: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.blogsCard {
+  width: 30%;
+  flex-shrink: 0;
+  position: absolute;
+}

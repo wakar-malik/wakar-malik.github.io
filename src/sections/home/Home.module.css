@@ -1,0 +1,38 @@
+.homeSection {
+  height: 100vh;
+  position: relative;
+}
+
+.homeContainer {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  z-index: 2;
+  width: 90%;
+}
+
+.homeHeading {
+  text-align: center;
+}
+
+.homeDescription {
+  text-align: center;
+}
+
+.homeHeading,
+.homeDescription {
+  margin-bottom: 1.9rem;
+}
+
+@media screen and (min-width: 768px) {
+  .homeDesSpan {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .homeContainer {
+    width: 50%;
+  }
+}

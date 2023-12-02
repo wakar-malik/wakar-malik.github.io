@@ -1,0 +1,52 @@
+.skillsSection {
+  position: relative;
+}
+
+.skillsCardsContainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.skillsBarContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.skillsSection::after {
+  content: "SKILLS";
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 7rem;
+  line-height: 1;
+  z-index: 0;
+  font-weight: 900;
+  opacity: var(--opacity);
+}
+
+.skillsHeading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1rem;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .skillsBarContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .skillsSection::after {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillsSection::after {
+    font-size: 4rem;
+    /* display: none; */
+  }
+}

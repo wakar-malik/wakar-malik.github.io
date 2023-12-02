@@ -1,0 +1,33 @@
+.imgCard {
+  border-radius: 0.4rem;
+  padding: 1.4rem;
+  background-color: var(--cardBg);
+}
+
+.imgCardImgContainer {
+  margin-bottom: 1.6rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.imgCardOverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: -100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  gap: 2rem;
+}
+
+.imgCardImgContainer:hover .imgCardOverlay {
+  left: 0;
+}
+
+.imgCardImg {
+  width: 100%;
+}

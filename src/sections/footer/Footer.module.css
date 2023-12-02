@@ -1,0 +1,24 @@
+.footerSection {
+  padding: 2rem;
+  background-color: #0f172a;
+  border-top: 1px solid var(--borderColor);
+}
+
+.footerMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyrightTxt {
+  color: var(--bgGreen);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .footerMain {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}

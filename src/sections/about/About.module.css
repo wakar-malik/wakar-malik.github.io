@@ -1,0 +1,99 @@
+.aboutSection {
+  position: relative;
+}
+
+.aboutHeading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1rem;
+  z-index: 2;
+}
+
+.aboutMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.aboutLeft,
+.aboutRight {
+  width: 50%;
+}
+
+.aboutCard {
+  border-radius: 0.5rem;
+}
+
+.aboutImg {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutRight .profileDetailsList {
+  list-style: inside;
+  position: relative;
+  margin-top: 0.9rem;
+}
+
+.profileDetailsList li {
+  font-size: 1.2rem;
+}
+
+.profileDetailsList li:not(:nth-of-type(4)) {
+  margin-bottom: 0.6rem;
+}
+
+.aboutRight .profileDetailsList li::marker {
+  color: var(--bgGreen);
+}
+
+.profileDetailsList li span {
+  font-weight: 900;
+}
+
+.aboutSection::after {
+  content: "ABOUT ME";
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 7rem;
+  line-height: 1;
+  z-index: 0;
+  font-weight: 900;
+  white-space: nowrap;
+  opacity: var(--opacity);
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutMain {
+    flex-direction: column;
+  }
+
+  .aboutLeft {
+    order: 2;
+  }
+
+  .aboutRight {
+    order: 1;
+  }
+
+  .aboutLeft,
+  .aboutRight {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutSection::after {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .aboutSection::after {
+    font-size: 4rem;
+    /* display: none; */
+  }
+}
