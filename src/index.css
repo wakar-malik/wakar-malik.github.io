@@ -49,6 +49,7 @@ html {
 
 body {
   font-family: var(--fontRegular);
+  background-color: var(--bgColor);
 }
 
 #root {
