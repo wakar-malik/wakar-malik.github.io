@@ -25,6 +25,16 @@
   margin-bottom: 1.9rem;
 }
 
+.homeHeading span {
+  color: var(--bgGreen);
+}
+
+@media screen and (max-width: 768px) {
+  .homeHeading span {
+    display: block;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .homeDesSpan {
     display: block;
@@ -34,5 +44,20 @@
 @media screen and (min-width: 1024px) {
   .homeContainer {
     width: 50%;
+  }
+}
+
+.typingText::after {
+  content: "|";
+  animation: blink ease 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
   }
 }

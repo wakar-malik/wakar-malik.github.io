@@ -93,6 +93,19 @@ function Navbar({ isIntersecting }) {
               <Text size={1.1}>Contact</Text>
             </a>
           </li>
+
+          <li>
+            <a
+              style={{
+                color: isIntersecting ? "#fff" : "var(--textColor)",
+              }}
+              href="https://drive.google.com/file/d/18rHOVVegiMRr5ABtdsRMtr9YWyYL072K/view?usp=sharing"
+              download={true}
+              target="_blank"
+            >
+              <Text size={1.1}>Resume</Text>
+            </a>
+          </li>
         </ul>
 
         <div className={styles.navActionContainer}>

@@ -47,7 +47,7 @@ function Home() {
         <Profile />
 
         <Heading className={styles.homeHeading} size={3}>
-          Hi, I am
+          Hi! I'm <span>Wakar Malik</span>
         </Heading>
 
         <Text className={styles.homeDescription} size={1.4}>

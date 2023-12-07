@@ -1,0 +1,24 @@
+.githubSection {
+  position: relative;
+}
+
+.githubHeading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1rem;
+  z-index: 2;
+}
+
+.githubSection::after {
+  content: "Stats";
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 7rem;
+  line-height: 1;
+  z-index: 0;
+  font-weight: 900;
+  white-space: nowrap;
+  opacity: var(--opacity);
+}

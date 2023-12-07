@@ -60,3 +60,15 @@ body {
   background-color: var(--bgGreen);
   color: var(--black);
 }
+
+.react-activity-calendar__scroll-container > svg > g > rect {
+  stroke: #828282;
+}
+
+.react-activity-calendar__scroll-container > svg {
+  width: 100%;
+}
+
+.react-activity-calendar__footer {
+  margin-top: 1rem;
+}

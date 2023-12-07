@@ -5,6 +5,7 @@ import Skills from "./sections/skills/Skills";
 import Works from "./sections/works/Works";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
+import Github from "./sections/github/Github";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Skills />
       <Works />
+      <Github />
       <Contact />
       <Footer />
     </>

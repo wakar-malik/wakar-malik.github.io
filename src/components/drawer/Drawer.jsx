@@ -58,6 +58,19 @@ function DrawerPanel({ drawer, setDrawer }) {
             <Text size={1.1}>Contact</Text>
           </a>
         </li>
+
+        <li
+          className={styles.drawerItem}
+          onClick={() => setDrawer((prev) => !prev)}
+        >
+          <a
+            href="https://drive.google.com/file/d/18rHOVVegiMRr5ABtdsRMtr9YWyYL072K/view?usp=sharing"
+            download={true}
+            target="_blank"
+          >
+            <Text size={1.1}>Resume</Text>
+          </a>
+        </li>
       </ul>
     </aside>
   );
