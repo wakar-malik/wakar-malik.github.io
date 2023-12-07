@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5eecd76a.css",
-    "main.js": "/static/js/main.aa70da27.js",
+    "main.css": "/static/css/main.80c1eb0a.css",
+    "main.js": "/static/js/main.3e763399.js",
     "static/media/RadioCanada-SemiBold.ttf": "/static/media/RadioCanada-SemiBold.49ddd12e35ea768b7b35.ttf",
     "static/media/RadioCanada-Regular.ttf": "/static/media/RadioCanada-Regular.bb3de620454dcb425edb.ttf",
     "static/media/Arizonia-Regular.ttf": "/static/media/Arizonia-Regular.b927a9202f2f0b913cfb.ttf",
@@ -12,11 +12,11 @@
     "static/media/faraway.avif": "/static/media/faraway.a16f0383613976ac8e73.avif",
     "static/media/splitbill.avif": "/static/media/splitbill.d242e1bd92fd45996b0e.avif",
     "index.html": "/index.html",
-    "main.5eecd76a.css.map": "/static/css/main.5eecd76a.css.map",
-    "main.aa70da27.js.map": "/static/js/main.aa70da27.js.map"
+    "main.80c1eb0a.css.map": "/static/css/main.80c1eb0a.css.map",
+    "main.3e763399.js.map": "/static/js/main.3e763399.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eecd76a.css",
-    "static/js/main.aa70da27.js"
+    "static/css/main.80c1eb0a.css",
+    "static/js/main.3e763399.js"
   ]
 }
