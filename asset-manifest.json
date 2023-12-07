@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0acbf28a.css",
-    "main.js": "/static/js/main.dc64ca39.js",
+    "main.js": "/static/js/main.bcebb951.js",
     "static/media/RadioCanada-SemiBold.ttf": "/static/media/RadioCanada-SemiBold.49ddd12e35ea768b7b35.ttf",
     "static/media/RadioCanada-Regular.ttf": "/static/media/RadioCanada-Regular.bb3de620454dcb425edb.ttf",
     "static/media/Arizonia-Regular.ttf": "/static/media/Arizonia-Regular.b927a9202f2f0b913cfb.ttf",
@@ -13,10 +13,10 @@
     "static/media/splitbill.avif": "/static/media/splitbill.d242e1bd92fd45996b0e.avif",
     "index.html": "/index.html",
     "main.0acbf28a.css.map": "/static/css/main.0acbf28a.css.map",
-    "main.dc64ca39.js.map": "/static/js/main.dc64ca39.js.map"
+    "main.bcebb951.js.map": "/static/js/main.bcebb951.js.map"
   },
   "entrypoints": [
     "static/css/main.0acbf28a.css",
-    "static/js/main.dc64ca39.js"
+    "static/js/main.bcebb951.js"
   ]
 }
