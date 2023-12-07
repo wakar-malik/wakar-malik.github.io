@@ -51,9 +51,9 @@ function Home() {
         </Heading>
 
         <Text className={styles.homeDescription} size={1.4}>
-          I am a frontend web developer. I can provide clean code and pixel
-          perfect design. I also make website more & more interactive with web
-          animations.
+          Welcome! Step into the world of a Full Stack Developer, where
+          creativity meets logic, and ideas transform into dynamic web
+          experiences.
         </Text>
         <Socials />
       </div>
