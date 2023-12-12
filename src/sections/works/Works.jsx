@@ -14,29 +14,44 @@ const projects = [
     title: "MailChimp",
     img: IMAGES.mailchimp,
     liveUrl: "https://mailchimp001.netlify.app/",
+    description:
+      "Exact replica of Mailchimp's website, demonstrating precision in front-end development and design prowess.",
+    stack: ["Javascript", "React", "Redux"],
     githubUrl: "https://github.com/wakar-malik/mailchimp",
   },
   {
     title: "Donto",
     img: IMAGES.donto,
+    description:
+      "Crafted a polished dentist website, seamlessly blending functionality with an aesthetic design to enhance the online presence of dental services.",
+    stack: ["Javascript", "React"],
     liveUrl: "https://react-dentist.netlify.app/",
     githubUrl: "https://github.com/wakar-malik/dentist-website",
   },
   {
     title: "Homyz",
     img: IMAGES.homyz,
+    description:
+      "Designed an intuitive real estate platform, simplifying property searches and enhancing user engagement.",
+    stack: ["Javascript", "React"],
     liveUrl: "https://website-realestate.netlify.app/",
     githubUrl: "https://github.com/wakar-malik/react-real-estate",
   },
   {
     title: "Far Away",
     img: IMAGES.faraway,
+    description:
+      "Developed a user-friendly app allowing travelers to effortlessly track their luggage during tours, ensuring a stress-free journey.",
+    stack: ["Javascript", "React"],
     liveUrl: "https://react-far-away.netlify.app/",
     githubUrl: "https://github.com/wakar-malik/react-far-away",
   },
   {
     title: "Split Bill",
     img: IMAGES.splitbill,
+    description:
+      "Crafted an intuitive split-bill app to simplify sharing expenses among friends, making financial management a breeze during group outings.",
+    stack: ["Javascript", "React"],
     liveUrl: "https://react-split-bill.netlify.app/",
     githubUrl: "https://github.com/wakar-malik/react-split-bill",
   },
@@ -73,6 +88,8 @@ function Works() {
                   title={project.title}
                   alt={project.alt}
                   src={project.img}
+                  description={project.description}
+                  stack={project.stack}
                   liveUrl={project.liveUrl}
                   githubUrl={project.githubUrl}
                 />

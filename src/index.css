@@ -54,6 +54,7 @@ body {
 #root {
   color: var(--textColor);
   overflow: hidden;
+  background-color: var(--bgColor);
 }
 
 *::selection {
