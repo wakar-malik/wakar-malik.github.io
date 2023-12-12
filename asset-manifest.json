@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0acbf28a.css",
-    "main.js": "/static/js/main.bcebb951.js",
+    "main.css": "/static/css/main.8e05fde6.css",
+    "main.js": "/static/js/main.411d8462.js",
+    "static/media/about_img.png": "/static/media/about_img.ff4cca84971aa450eaaa.png",
+    "static/media/profile_img.png": "/static/media/profile_img.e977c75923f20436de85.png",
     "static/media/RadioCanada-SemiBold.ttf": "/static/media/RadioCanada-SemiBold.49ddd12e35ea768b7b35.ttf",
     "static/media/RadioCanada-Regular.ttf": "/static/media/RadioCanada-Regular.bb3de620454dcb425edb.ttf",
     "static/media/Arizonia-Regular.ttf": "/static/media/Arizonia-Regular.b927a9202f2f0b913cfb.ttf",
-    "static/media/about-image.jpg": "/static/media/about-image.ec2d8c15b9bb1ccde729.jpg",
     "static/media/mailchimp.avif": "/static/media/mailchimp.fc4e9b20b764a1b4baa4.avif",
     "static/media/donto.avif": "/static/media/donto.683eeb24c6168e7e34d5.avif",
     "static/media/homyz.avif": "/static/media/homyz.14feb6ea40471c78eec2.avif",
     "static/media/faraway.avif": "/static/media/faraway.a16f0383613976ac8e73.avif",
     "static/media/splitbill.avif": "/static/media/splitbill.d242e1bd92fd45996b0e.avif",
     "index.html": "/index.html",
-    "main.0acbf28a.css.map": "/static/css/main.0acbf28a.css.map",
-    "main.bcebb951.js.map": "/static/js/main.bcebb951.js.map"
+    "main.8e05fde6.css.map": "/static/css/main.8e05fde6.css.map",
+    "main.411d8462.js.map": "/static/js/main.411d8462.js.map"
   },
   "entrypoints": [
-    "static/css/main.0acbf28a.css",
-    "static/js/main.bcebb951.js"
+    "static/css/main.8e05fde6.css",
+    "static/js/main.411d8462.js"
   ]
 }
