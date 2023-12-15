@@ -7,6 +7,7 @@ import Main from "../../components/main/Main";
 import Text from "../../components/text/Text";
 import { useThemeCtxProvider } from "../../context/ThemeContext";
 import { useDrawerCtxProvider } from "../../context/DrawerContext";
+import Resume from "../../assets/Wakar-Malik-Resume.pdf";
 
 function Navbar({ isIntersecting }) {
   const { theme, setTheme } = useThemeCtxProvider();
@@ -78,9 +79,9 @@ function Navbar({ isIntersecting }) {
               style={{
                 color: isIntersecting ? "#fff" : "var(--textColor)",
               }}
-              href="#works_section"
+              href="#projects_section"
             >
-              <Text size={1.1}>Works</Text>
+              <Text size={1.1}>Projects</Text>
             </a>
           </li>
           <li>
@@ -99,8 +100,13 @@ function Navbar({ isIntersecting }) {
               style={{
                 color: isIntersecting ? "#fff" : "var(--textColor)",
               }}
-              href="https://drive.google.com/file/d/18rHOVVegiMRr5ABtdsRMtr9YWyYL072K/view?usp=sharing"
-              download={true}
+              href={Resume}
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1z9UA-4VVQ_WihA0_IpTjcXrlolM0nr6c/view?usp=sharing"
+                );
+              }}
+              download
               target="_blank"
             >
               <Text size={1.1}>Resume</Text>

@@ -1,0 +1,36 @@
+.toolsSection {
+  position: relative;
+}
+
+.toolsHeading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1rem;
+  z-index: 2;
+}
+
+.toolsSection::after {
+  content: "TOOLS";
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 7rem;
+  line-height: 1;
+  z-index: 0;
+  font-weight: 900;
+  opacity: var(--opacity);
+  white-space: nowrap;
+}
+
+.toolIcon {
+  width: 120px;
+  cursor: pointer;
+}
+
+.toolMain {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

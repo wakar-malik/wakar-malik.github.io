@@ -33,6 +33,10 @@
   padding: 2rem;
 }
 
+.contactText {
+  color: var(--bgGreen);
+}
+
 .contactRight,
 .emailCard {
   border-radius: 0.4rem;

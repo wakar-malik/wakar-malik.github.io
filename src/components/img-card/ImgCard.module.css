@@ -24,7 +24,7 @@
   gap: 2rem;
 }
 
-.imgCardImgContainer:hover .imgCardOverlay {
+.imgCard:hover .imgCardOverlay {
   left: 0;
 }
 

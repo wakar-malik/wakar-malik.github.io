@@ -30,7 +30,21 @@ function Contact() {
 
             <div className={styles.email}>
               <Heading>Contact on mail</Heading>
-              <Text>wakarmalik9@gmail.com</Text>
+              <a
+                href="mailto:wakarmalik9@gmail.com"
+                style={{ color: "var(--bgGreen)", textDecoration: "none" }}
+              >
+                wakarmalik9@gmail.com
+              </a>
+            </div>
+          </Card>
+
+          <Card className={styles.emailCard}>
+            <RiMailLine size={50} color="var(--bgGreen)" />
+
+            <div className={styles.email}>
+              <Heading>Contact on phone</Heading>
+              <Text className={styles.contactText}>7701897590</Text>
             </div>
           </Card>
         </div>

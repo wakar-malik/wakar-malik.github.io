@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Works.module.css";
+import styles from "./Projects.module.css";
 import Section from "../../components/section/Section";
 import Main from "../../components/main/Main";
 import Heading from "../../components/heading/Heading";
@@ -57,13 +57,13 @@ const projects = [
   },
 ];
 
-function Works() {
+function Projects() {
   const [tab, setTab] = useState("FRONT-END");
 
   return (
-    <Section className={styles.worksSection} id="works_section">
-      <Heading className={styles.worksHeading} size={2.5}>
-        WORKS
+    <Section className={styles.projectsSection} id="projects_section">
+      <Heading className={styles.projectsHeading} size={2.5}>
+        PROJECTS
       </Heading>
       <Progress />
 
@@ -116,4 +116,4 @@ function Works() {
   );
 }
 
-export default Works;
+export default Projects;

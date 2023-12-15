@@ -7,6 +7,9 @@
   margin: auto;
   margin-bottom: 2rem;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* background-color: #e5e5e5; */
 }
 
@@ -42,3 +45,13 @@
     transform: rotate(360deg);
   }
 } */
+
+@media screen and (max-width: 500px) {
+  .profileContainer {
+    width: 100%;
+  }
+
+  .profileImg {
+    width: 80%;
+  }
+}
