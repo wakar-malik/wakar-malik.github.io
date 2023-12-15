@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e05fde6.css",
-    "main.js": "/static/js/main.411d8462.js",
+    "main.css": "/static/css/main.e7983313.css",
+    "main.js": "/static/js/main.84f39771.js",
     "static/media/about_img.png": "/static/media/about_img.ff4cca84971aa450eaaa.png",
     "static/media/profile_img.png": "/static/media/profile_img.e977c75923f20436de85.png",
+    "static/media/Wakar-Malik-Resume.pdf": "/static/media/Wakar-Malik-Resume.dda7dedade280e7fca13.pdf",
     "static/media/RadioCanada-SemiBold.ttf": "/static/media/RadioCanada-SemiBold.49ddd12e35ea768b7b35.ttf",
     "static/media/RadioCanada-Regular.ttf": "/static/media/RadioCanada-Regular.bb3de620454dcb425edb.ttf",
     "static/media/Arizonia-Regular.ttf": "/static/media/Arizonia-Regular.b927a9202f2f0b913cfb.ttf",
@@ -11,13 +12,18 @@
     "static/media/donto.avif": "/static/media/donto.683eeb24c6168e7e34d5.avif",
     "static/media/homyz.avif": "/static/media/homyz.14feb6ea40471c78eec2.avif",
     "static/media/faraway.avif": "/static/media/faraway.a16f0383613976ac8e73.avif",
+    "static/media/netlify.svg": "/static/media/netlify.11f3c9aeb0f516bf84265c3488932eb6.svg",
     "static/media/splitbill.avif": "/static/media/splitbill.d242e1bd92fd45996b0e.avif",
+    "static/media/postman.svg": "/static/media/postman.60895d7a153ae80b245007a5d6c0cbde.svg",
+    "static/media/github.svg": "/static/media/github.e9b6357d0a631dfd0c19e7eb581f6ff4.svg",
+    "static/media/git.svg": "/static/media/git.a679068ad34c90fa1f17545698cf767a.svg",
     "index.html": "/index.html",
-    "main.8e05fde6.css.map": "/static/css/main.8e05fde6.css.map",
-    "main.411d8462.js.map": "/static/js/main.411d8462.js.map"
+    "static/media/npm.svg": "/static/media/npm.6200546b4fadc8853083a7f58e2cb2ae.svg",
+    "main.e7983313.css.map": "/static/css/main.e7983313.css.map",
+    "main.84f39771.js.map": "/static/js/main.84f39771.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e05fde6.css",
-    "static/js/main.411d8462.js"
+    "static/css/main.e7983313.css",
+    "static/js/main.84f39771.js"
   ]
 }
