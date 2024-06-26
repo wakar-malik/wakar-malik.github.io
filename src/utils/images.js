@@ -1,4 +1,4 @@
-import profileImg from "../assets/profile_img.png";
+import profileImg from "../assets/profile_img.jpeg";
 import aboutImg from "../assets/about_img.png";
 import mailchimp from "../assets/images/mailchimp.avif";
 import faraway from "../assets/images/faraway.avif";
